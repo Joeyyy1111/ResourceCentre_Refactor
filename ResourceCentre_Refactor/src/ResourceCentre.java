@@ -6,6 +6,7 @@ public class ResourceCentre {
 	//Joey
 	//Yi Xian
 	//Yong Xing
+	//Kyra
 	
 	private static final int OPTION_RETURN = 4;
 	private static final int OPTION_LOAN = 3;
