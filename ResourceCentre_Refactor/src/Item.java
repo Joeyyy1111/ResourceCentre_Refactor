@@ -14,6 +14,7 @@ public class Item {
 	public String toString() {
 		
 		// Write your codes here
+<<<<<<< HEAD
 		String itemInfo =  String.format("%-10s %-30s %-10s %-10s", assetTag,
 				description, 
 				showAvailability(isAvailable),
@@ -30,7 +31,24 @@ public class Item {
 		}
 		return avail;
 		
+=======
+		String itemInfo = String.format("%-10s %-30s %-10s %-10s", assetTag,
+				description, showAvailability(isAvailable), dueDate);
+		return itemInfo;
+>>>>>>> branch 'master' of https://github.com/Joeyyy1111/ResourceCentre_Refactor.git
 	}
+	
+	public static String showAvailability(boolean isAvailable) {
+		String avail;
+
+		if (isAvailable == true) {
+			avail = "Yes";
+		} else {
+			avail = "No";
+		}
+		return avail;
+	}
+	
 	public String getAssetTag() {
 		return assetTag;
 	}
