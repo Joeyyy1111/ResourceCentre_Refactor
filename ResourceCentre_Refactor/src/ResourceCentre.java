@@ -298,6 +298,9 @@ public class ResourceCentre {
 		}
 		return isReturned;
 		
+		
+		//KYRA - METHOD RETURN CAMCORDER
+		
 	}
 
 	public static void returnCamcorder(ArrayList<Camcorder> camcorderList) {
