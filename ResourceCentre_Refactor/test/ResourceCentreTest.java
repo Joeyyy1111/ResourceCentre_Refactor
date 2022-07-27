@@ -104,7 +104,7 @@ public class ResourceCentreTest {
 		ResourceCentre.addChromebook(chromebookList, cb1);
 		ResourceCentre.addChromebook(chromebookList, cb2);
 		assertEquals("Test that chromebook arraylist size is 2", 2, chromebookList.size());
-		
+		assertEquals("Test that member arraylist size is 0", 0, members.size());
 		//test if the expected output string same as the list of chromebooks retrieved from the SourceCentre	
 		allChrombook= ResourceCentre.retrieveAllChromebook(chromebookList);
 		testOutput = String.format("%-10s %-30s %-10s %-10s %-20s\n","CB0011", "My Google Chromebook 1st","Yes", "", "Mac OS");
