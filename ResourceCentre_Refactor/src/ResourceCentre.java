@@ -118,7 +118,7 @@ public class ResourceCentre {
 		System.out.println(header);
 		Helper.line(80, "-");
 	}
-
+	//METHOD 1 - JOEY push
 	public static String showAvailability(boolean isAvailable) {
 		String avail;
 
